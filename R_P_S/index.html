@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+    <h1> Rock - Paper - Scissors</h1>
+
+    <div class="choices">
+        <button onclick="game('✊')">✊</button>
+        <button onclick="game('✋')">✋</button>
+        <button  onclick="game('✌')">✌</button>
+    </div>
+
+    <div class="font">
+        <div id="playerdispaly">Player:</div>
+        <div id="computerdispaly">Computer:</div>
+    </div>
+    
+    <div class="win" id="resultdisplay"></div>
+
+    <div class="font" id="scoredisplay"> 
+
+        <div class="score">Player Score :
+            <div id="PlayerScore">0</div>
+        </div>
+
+        <div class="score">Computer Score :
+            <div id="CompScore">0</div>
+        </div>
+
+    
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
